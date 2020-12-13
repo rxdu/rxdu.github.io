@@ -1,9 +1,9 @@
 export default {
   site: {
     branding: {
-      name: "Reflexjs",
+      name: "Ruixiang Du",
     },
-    copyright: `© ${new Date().getFullYear()} Reflexjs - Sample illustrations from Icons8`,
+    copyright: `© ${new Date().getFullYear()} Ruixiang Du. All rights reserved.`,
     links: [
       {
         title: "Home",
@@ -14,8 +14,12 @@ export default {
         href: "https://reflexjs.org/docs",
       },
       {
+        title: "Wiki",
+        href: "https://rdu.im/wiki",
+      },
+      {
         title: "GitHub",
-        href: "https://github.com/reflexjs/reflexjs",
+        href: "https://github.com/rxdu",
       },
     ],
   },

@@ -17,7 +17,7 @@ export default function IndexPage() {
         }}
         buttons={
           <a variant="button.secondary.lg" href="#" mt="4">
-            Get started <Icon name="arrow-right" size="6" ml="2" />
+            Start Building <Icon name="arrow-right" size="6" ml="2" />
           </a>
         }
       />
