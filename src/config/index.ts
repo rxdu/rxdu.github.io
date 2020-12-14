@@ -11,7 +11,7 @@ export default {
       },
       {
         title: "Docs",
-        href: "https://reflexjs.org/docs",
+        href: "about",
       },
       {
         title: "Wiki",

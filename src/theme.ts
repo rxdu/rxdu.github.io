@@ -1,8 +1,12 @@
 export default {
   colors: {
-    text: "#111",
-    heading: "#111",
-    background: "#fff",
+    text: "#fff",
+    heading: "#fff",
+    background: "#121212",
+    navbar: "#fff",
+    // text: "#111",
+    // heading: "#111",
+    // background: "#fff",
     primary: "#06f",
     secondary: "#f66640",
     accent: "#fb3640",
