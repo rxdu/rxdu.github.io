@@ -9,8 +9,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "dev": "gatsby clean && gatsby develop",
-    "preview": "gatsby build && gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "preview": "gatsby build && gatsby serve"
   },
   "dependencies": {
     "@reflexjs/gatsby-plugin-metatags": "^0.2.7",
@@ -18,7 +17,6 @@
     "@reflexjs/gatsby-theme-doc": "^0.6.0",
     "@reflexjs/gatsby-theme-post": "^0.6.7",
     "gatsby": "^2.22.11",
-    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "typeface-inter": "^3.12.0"
