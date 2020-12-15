@@ -30,6 +30,8 @@ Browse the blocks library at [https://reflexjs.org/library/blocks](https://refle
 
 Licensed under the [MIT license](https://github.com/reflexjs/reflex/blob/master/LICENSE).
 
+## Useful commands
+
 ```
 $ npm run deploy
 ```
