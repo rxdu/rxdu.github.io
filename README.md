@@ -1,25 +1,31 @@
-# reflexjs/gatsby-starter-typescript
+# reflexjs/gatsby-starter-base
 
-This is the base starter for kicking off your Gatsby project with Reflexjs and Typescript.
+This is the base starter for kicking off your Gatsby project with Reflex. It ships with `MDX` pages and blocks, a blog, navigation menus and `Reflex UI` for theming components.
 
 ## Getting Started
 
 ```sh
-gatsby new site reflexjs/gatsby-starter-typescript
+gatsby new site reflexjs/gatsby-starter-base
 ```
 
-## Running your site
+## Helpful links
 
-```sh
-cd site
+- [Add a page](https://reflexjs.org/docs/pages)
+- [Add a block and use it on a page](https://reflexjs.org/docs/pages-block)
+- [Create a block that can accept props](https://reflexjs.org/docs/pages-dynamic-block)
+- [Add a blog author](https://reflexjs.org/docs/blog-author)
+- [Create a blog post](https://reflexjs.org/docs/blog-post)
+- [Customize the theme](https://reflexjs.org/docs/theming-create-theme)
+- [Add a nav](https://reflexjs.org/docs/navs#add-a-nav)
 
-npm run dev
-```
+## Learn
 
-## Docs
+Visit [https://reflexjs.org/learn](https://reflexjs.org/learn) to get started with Gatsby and Reflex.
 
-Visit [https://reflexjs.org/docs](https://reflexjs.org/docs) to learn more about Gatsby and Reflexjs.
+## Blocks
+
+Browse the blocks library at [https://reflexjs.org/library/blocks](https://reflexjs.org/library/blocks).
 
 ## License
 
-Licensed under the [MIT license](https://github.com/reflexjs/reflexjs/blob/master/LICENSE).
+Licensed under the [MIT license](https://github.com/reflexjs/reflex/blob/master/LICENSE).
