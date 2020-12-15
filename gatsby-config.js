@@ -1,9 +1,10 @@
 require(`dotenv`).config()
 
 module.exports = {
+  pathPrefix: "/homepage",
   siteMetadata: {
-    title: "Reflex",
-    description: "Starter for Reflex.",
+    title: "Ruixiang",
+    description: "Ruixiang Du's personal site",
     siteUrl: process.env.SITE_URL || "http://localhost:8000",
   },
   plugins: [

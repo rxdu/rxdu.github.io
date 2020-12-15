@@ -29,3 +29,7 @@ Browse the blocks library at [https://reflexjs.org/library/blocks](https://refle
 ## License
 
 Licensed under the [MIT license](https://github.com/reflexjs/reflex/blob/master/LICENSE).
+
+```
+$ npm run deploy
+```
