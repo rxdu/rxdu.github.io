@@ -11,11 +11,19 @@ module.exports = {
     "@reflexjs/gatsby-theme-base",
     "@reflexjs/gatsby-theme-post",
     "@reflexjs/gatsby-theme-doc",
+    `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
     {
       resolve: "@reflexjs/gatsby-plugin-metatags",
       options: {
         types: [`Page`, `Post`],
       },
     },
+    {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          path: `${__dirname}/content/images`,
+        },
+      },
   ],
 }

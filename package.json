@@ -18,6 +18,11 @@
     "@reflexjs/gatsby-theme-doc": "^0.6.0",
     "@reflexjs/gatsby-theme-post": "^0.6.7",
     "gatsby": "^2.22.11",
+    "gatsby-image": "^2.8.0",
+    "gatsby-plugin-sharp": "^2.11.1",
+    "gatsby-remark-images": "^3.8.0",
+    "gatsby-source-filesystem": "^2.8.0",
+    "gatsby-transformer-sharp": "^2.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "typeface-inter": "^3.12.0"
