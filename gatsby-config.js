@@ -24,6 +24,6 @@ module.exports = {
         options: {
           path: `${__dirname}/content/images`,
         },
-      },
+    },
   ],
 }
