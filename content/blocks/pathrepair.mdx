@@ -1,0 +1,46 @@
+<Container>
+    <Grid col="1|2" gap="8|12|16" alignItems="center">    
+      <Flexbox
+        flexDirection="column"
+        alignItems="center|center"
+        textAlign="center|justify"
+        lineSpacing="1.5em"
+      >    
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/TL6o-dDvIOY?rel=0" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/phAr_QhqO4A?rel=0" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+      </Flexbox>
+      <Flexbox
+        flexDirection="column"
+        alignItems="center|center"
+        textAlign="center|justify"
+        lineSpacing="1.5em"
+      >    
+        <h5>Path Repair and Motion Planning for Small Unmanned Aerial Vehicles</h5>
+        <ul>
+            <li>Proposed a path repair algorithm for small UAVs equipped with FOV-limited onboard 3D sensor to efficiently
+navigate in large indoor environments where only a 2D map is available beforehand
+            <ul>
+                <li>Analyzed potential benefits of taking possible 3D path shortcuts in 2D map</li>
+                <li>Designed optimal sensor pointing policy to actively look for high-rank shortcuts</li>
+                <li>Evaluated A* and RRT* implementations for optimal global path finding with a hybrid map that
+incorporates information from 2D map and real-time sensor data</li>
+            </ul>
+            </li>
+            <li>Implemented minimum-snap trajectory optimization and a quaternion-based motion tracking controller for
+algorithm validation within a physics-based simulator</li>
+        </ul>
+      </Flexbox>
+    </Grid>
+</Container>

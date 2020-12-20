@@ -12,6 +12,7 @@ module.exports = {
     "@reflexjs/gatsby-theme-doc",
     `gatsby-plugin-sharp`,
     `gatsby-remark-images`,
+    "gatsby-remark-responsive-iframe",
     {
       resolve: "@reflexjs/gatsby-plugin-metatags",
       options: {
@@ -36,6 +37,6 @@ module.exports = {
           // Delays sending pageview hits on route update (in milliseconds)
           pageTransitionDelay: 0,
         },
-      },
+    },
   ],
 }
