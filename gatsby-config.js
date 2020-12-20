@@ -1,7 +1,6 @@
 require(`dotenv`).config()
 
 module.exports = {
-  pathPrefix: "/homepage",
   siteMetadata: {
     title: "Ruixiang",
     description: "Ruixiang Du's personal site",
