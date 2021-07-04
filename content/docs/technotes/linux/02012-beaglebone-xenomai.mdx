@@ -101,6 +101,12 @@ You can also build debian packages for easier installation (for example, update 
 $ make -j8 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- deb-pkg
 ```
 
+If you want to add a custom string identifier to your kernel name, you can add the "LOCALVERSION" parameter
+
+```bash
+$ make -j8 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- deb-pkg LOCALVERSION=-rt
+```
+
 Alternatively, you could deploy to the SD card manually.
 
 #### Prepare SD card
