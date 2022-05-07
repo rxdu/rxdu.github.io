@@ -9,7 +9,7 @@ const AboutTile = (props) => {
     <div className={style.aboutTile}>
       <div className={style.aboutBlock}>
         <img
-          src={`../${img}`}
+          src={`${img}`}
           height={height || 64}
           width={width || 64}
           alt={alt || ''}
