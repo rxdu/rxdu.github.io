@@ -4,7 +4,8 @@ import Header from '../components/PageLayout/Header';
 
 import SidebarWrapper from '../components/PageLayout/Sidebar';
 import AboutMe from '../components/PageFragments/HomePage/AboutMe';
-import Projects from '../components/PageFragments/HomePage/MyProjects';
+import PersonalProjects from '../components/PageFragments/HomePage/PersonalProjects';
+import MoreProjects from '../components/PageFragments/HomePage/MoreProjects';
 
 export default () => (
   <Layout className="outerPadding">
@@ -13,7 +14,8 @@ export default () => (
       <SidebarWrapper>
         <>
           <AboutMe />
-          <Projects />
+          <PersonalProjects />
+          <MoreProjects />
         </>
       </SidebarWrapper>
     </Layout>

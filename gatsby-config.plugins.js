@@ -19,8 +19,8 @@ module.exports = [
       name: 'Ruixiang Du',
       short_name: 'Ruixiang Du',
       start_url: '/',
-      background_color: '#304CFD',
-      theme_color: '#304CFD',
+      background_color: '#24a0ed',
+      theme_color: '#24a0ed',
       display: 'standalone',
       icon: 'src/images/favicon.png', // This path is relative to the root of the site.
       legacy: true, // this will add apple-touch-icon links to <head>. Required for
