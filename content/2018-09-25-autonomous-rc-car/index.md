@@ -1,7 +1,7 @@
 ---
 title: "Autonomous RC Car"
 path: blog/autonomous-rc-car
-tags: [RCCar, Autonomous Driving]
+tags: [hardware]
 cover: ./rc_car.jpg
 date: 2018-09-25
 excerpt: Build autonomous-driving capabilities on a 1:10 RC car
@@ -113,7 +113,7 @@ Additional information from the Internet:
 1. Don't forget to buy instant glue, which is required but not included in the package. Other than that you get everything you need to put this chassis together.
 2. A PPM receiver was chosen for its small size. But it's convenient if you have a receiver that outputs PWM signal. You can test the servo and DC motor conveniently simply with your trasmitter, without an microcontroller or doing any coding.
 
-![Chassis](./projects/autocar/chassis.jpg)
+![Chassis](./images/chassis.jpg)
 
 **Motor and Servo Installation**
 
@@ -123,7 +123,7 @@ Just follow the instructions.
 
 1. Don't tighten servo related parts before you finish adjusting the neutral position of servo. You could adjust the control signal for a neutral position but you probably don't want to get off the mechanical neutral position too much during installation.
 
-![Chassis Motor](./projects/autocar/chassis_motor.jpg)
+![Chassis Motor](./images/chassis_motor.jpg)
 
 **Wheels and Tires**
 
@@ -131,7 +131,7 @@ Just follow the instructions.
 
 1. Make sure you don't skip using glue on the tires to attach them to the wheels. They're going to get off during the high-speed driving if you don't.
 
-![Chassis Wheels](./projects/autocar/wheels_on.jpg)
+![Chassis Wheels](./images/wheels_on.jpg)
 
 **Lower Mounting Plate**
 
@@ -145,17 +145,17 @@ A mounting plate is very useful for attaching all parts to the chassis nicely. T
 4. Make sure the wires don't interfere with the belt/gears below the plate. If organized properly, they shouldn't move underneath the deck.
 5. See the soldering joints I made in the following picture. The input wires from the battery are almost directly connected to the wires to the ESC. Remember to use a wider soldering tip. A very fine tip will not work.
 
-![PDB](./projects/autocar/pdb.jpg)
+![PDB](./images/pdb.jpg)
 
 And what the car looks like after installing the mounting plate.
 
-![Chassis With Deck](./projects/autocar/with_deck.jpg)
+![Chassis With Deck](./images/with_deck.jpg)
 
 **More Electronics**
 
 In the following image, an Udoo Neo Full, a Pixracer and a racing version of Revolution flight controller are installed. Other boards include the voltage regulation modules and CAN bus tranceiver modules. The final combination will be decided later.
 
-![Chassis With Udoo Neo](./projects/autocar/udoo_neo.jpg)
+![Chassis With Udoo Neo](./images/udoo_neo.jpg)
 
 #### Software Architecture
 

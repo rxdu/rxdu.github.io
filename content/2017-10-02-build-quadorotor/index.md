@@ -1,7 +1,7 @@
 ---
 title: "Build Your Quadrotor"
 path: blog/build-your-quadrotor
-tags: [Quadrotor, Electronics]
+tags: [hardware]
 cover: ./quadrotor.jpg
 date: 2017-10-02
 excerpt: Build your first quadrotor from components
@@ -57,7 +57,7 @@ The second build is improved in the following aspects:
 * Better motor/ESC: "DJI Snail Racing Propulsion System" vs "Multistar Elite 2306-2150KV 'MINI MONSTER' + Afro Race Spec Mini 20Amp"
 * Better wire management
 
-![Quad250-2](./projects/quadrotor/quad250-2.jpg)
+![Quad250-2](./images/quad250-2.jpg)
 
 (It's generally recommended to put the two antenas at 90 degrees. But I hadn't found a good way to mount them in such configuration when I took this photo.)
 
@@ -65,8 +65,8 @@ The second build is improved in the following aspects:
 
 More quadrotors (size 250, 150, 130, 90mm) in the picture.
 
-![More-Quads](./projects/quadrotor/all_quads.png)
+![More-Quads](./images/all_quads.png)
 
 The 150mm quadrotor is based on a Diatone Tyrant system and I only swapped the flight controller. The 90mm one is a Crazyflie 2.0. The custom-build 90mm size quad is my favorite build which in my opinion gives the best balance between size and payload for personal use. Nowadays it's not as easy to find a place that can freely fly the quadrotors outdoor and it's very challenging to fly big ones indoor. However, if you need to put a lot of sensors and more powerful on your quadrotor for research, it's probably better to go with a much bigger frame.
 
-![Quad90](./projects/quadrotor/quad90.jpeg)
+![Quad90](./images/quad90.jpeg)

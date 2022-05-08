@@ -20,8 +20,8 @@ const TagPage = ({ data, pageContext }) => {
   const { tag } = pageContext;
   const tagName = Config.tags[tag].name || Utils.capitalize(tag);
   const tagPagePath = Config.pages.tag;
-  const tagImage = data.allFile.edges.find((edge) => edge.node.name === tag).node
-    .childImageSharp.fluid;
+//   const tagImage = data.allFile.edges.find((edge) => edge.node.name === tag).node
+//     .childImageSharp.fluid;
   const posts = data.allMarkdownRemark.edges;
   return (
     <Layout className="outerPadding">
@@ -39,9 +39,9 @@ const TagPage = ({ data, pageContext }) => {
               #
               {tagName}
             </h1>
-            <div className={style.bannerImgContainer}>
+            {/* <div className={style.bannerImgContainer}>
               <Img className={style.bannerImg} fluid={tagImage} alt={tagName} />
-            </div>
+            </div> */}
             <h4 className="textCenter">
               {Config.tags[tag].description}
             </h4>
