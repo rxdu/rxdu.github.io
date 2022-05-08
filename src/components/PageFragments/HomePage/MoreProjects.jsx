@@ -10,7 +10,7 @@ const MoreProjects = () => (
     <h2>More Past Projects</h2>   
     I've worked on robotics projects with various types of robot hardware platforms. A few more examples of my past projects:
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-        <Col span={12}>
+        <Col>
                 <ImageTile
                         img="nutonomy.png"
                         width={400}
@@ -18,7 +18,7 @@ const MoreProjects = () => (
                         img_desc="Self-driving Car (nuTonomy)"
                         />
         </Col>
-        <Col span={12}>
+        <Col>
             <div>
             <iframe 
                 width="400" 
@@ -32,7 +32,7 @@ const MoreProjects = () => (
         </Col>
     </Row>
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-        <Col span={12}>
+        <Col>
             <div>
             <iframe 
                 width="400" 
@@ -44,7 +44,7 @@ const MoreProjects = () => (
             </div>
             <div className={style.tileCaption}>{ "Quadrotor Attitude Control" }</div>
         </Col>
-        <Col span={12}>
+        <Col>
             <div>
             <iframe 
                 width="400" 

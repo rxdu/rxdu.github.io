@@ -14,7 +14,7 @@ const PersonalProjects = () => (
         <li><a href="https://github.com/rxdu/robofw">robofw</a>: A robot firmware framework based on Zephyr</li>
     </ul>
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-        <Col span={12}>
+        <Col>
                 <ImageTile
                         img="lattice.png"
                         width={400}
@@ -22,7 +22,7 @@ const PersonalProjects = () => (
                         img_desc="Lattice Generation"
                         />
         </Col>
-        <Col span={12}>
+        <Col>
                 <ImageTile
                         img="rrt.png"
                         width={400}
@@ -32,7 +32,7 @@ const PersonalProjects = () => (
         </Col>
     </Row>
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-        <Col span={12}>
+        <Col>
                 <ImageTile
                         img="occupancy.png"
                         width={400}
@@ -40,7 +40,7 @@ const PersonalProjects = () => (
                         img_desc="Probabilistic Occupancy Estimation"
                         />
         </Col>
-        <Col span={12}>
+        <Col>
                 <ImageTile
                         img="rrts.png"
                         width={400}

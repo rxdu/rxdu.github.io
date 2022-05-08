@@ -58,7 +58,7 @@ const PastResearch = () => (
                 <p dangerouslySetInnerHTML={domHtml(pageText.paraOne)} />
                 </div>
         </Col>
-        <Col span={12}>
+        <Col>
             <div>
                 <iframe 
                     width="400" 
@@ -96,7 +96,7 @@ const PastResearch = () => (
                     allowfullscreen />
             </div>
         </Col>
-        <Col span={12}>
+        <Col>
                 <div>
                 <h3>Path Repair and Trajecotry Optimization for Small Unmanned Aerial Vehicles</h3>
                 <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
@@ -111,7 +111,7 @@ const PastResearch = () => (
                 <p dangerouslySetInnerHTML={domHtml(pageText.paraThree)} />
                 </div>
         </Col>
-        <Col span={12}>
+        <Col>
             <div>
                 <iframe 
                     width="400" 
