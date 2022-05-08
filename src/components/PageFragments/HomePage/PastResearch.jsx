@@ -49,7 +49,7 @@ const pageText = {
 const PastResearch = () => (
   <div style={{ marginTop: 26, alignItems: 'center', justifyContent: 'center' }}>
     <h2>Previous Research</h2>    
-    I've been maintaining a few open-source packages for my research and hobby projects over the past a few years. Below are a few screenshots of planning-related algorithms implemented in the packages.
+    Here you can find a few research projects I've worked on during my graduate study at WPI.
     <div><br></br></div>
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
         <Col span={12}>
