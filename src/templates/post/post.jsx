@@ -31,7 +31,7 @@ const Post = ({ data }) => {
           title={title}
           description={excerpt}
           path={path}
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby', 'technology']}
+          keywords={['Ruixiang Du', 'rdu', 'rxdu', 'Robotics Engineer', 'Mobile Robot', 'Autonomous Navigation', 'Motion Planning']}
         />
         <Header />
         <SidebarWrapper>

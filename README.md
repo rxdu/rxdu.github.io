@@ -1,45 +1,41 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://rolwinreevan.com">
-    <img alt="Gatsby" src="https://github.com/rolwin100/rolwinreevan_gatsby_blog/blob/master/src/images/icon.png" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby's RolwinReevan Portfolio template using <a href='https://ant.design/' target='_blank'>ant-design</a>
+  Gatsby Portfolio Template using <a href='https://ant.design/' target='_blank'>ant-design</a>
 </h1>
-<h3 align="center">Probably the most beautiful 😍 gatsby starter template</h3>
+<!-- <h3 align="center">Probably the most beautiful 😍 gatsby starter template</h3> -->
 
-This starter consists of ant design system you can use it for your personal blog. I have give a lot of time in developing this starter because I found that there were not much starters with a very good design. Please give a star to this project if you have like it to encourage me 😄. Thank you.
+**This site is adapted from [Gatsby's RolwinReevan Portfolio template](https://github.com/rolwin100/rolwinreevan_gatsby_blog) with my fork [here](https://github.com/rxdu/gatsby_portfolio_template).**
 
+---
 
-## 🚀 Quick start
+This starter consists of ant design system you can use it for your personal blog. 
 
-1.  **Setup the project by.**
+## Quick start
 
-    clone the project and install the dependencies
+1.  **Setup the project**  
+    by cloning the project and install the dependencies
 
     ```shell
     
-    git clone https://github.com/rolwin100/rolwinreevan_gatsby_blog.git
-    cd rolwinreevan_gatsby_blog 
+    cd <project-folder>
     npm install
     ```
 
-1.  **Start developing.**
+2.  **Start developing.**
 
 
     ```shell
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
 
-## 🧐 What's inside?
+## What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 

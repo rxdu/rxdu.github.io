@@ -17,8 +17,6 @@ module.exports = {
     github: 'https://github.com/rxdu',
     facebook: 'https://www.facebook.com/ruixiang.du',
     linkedin: 'https://www.linkedin.com/in/ruixiang-du/',
-    // twitter: 'https://twitter.com/rolwin100',
-    // instagram: 'https://www.instagram.com/reevan100/',
     // rss: '/rss.xml',
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',

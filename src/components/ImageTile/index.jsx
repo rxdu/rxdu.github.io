@@ -3,14 +3,13 @@ import style from './image.module.less';
 
 const ImageTile = (props) => {
   const {
-    img, img_desc, alt, height, width,
+    img, img_desc, alt, width,
   } = props;
   return (
-    // <div className={style.projectTile}>
+    // <div className={style.imageTile}>
       <div className={style.imageBlock}>
         <img
           src={`${img}`}
-          height={height || 64}
           width={width || 64}
           alt={alt || ''}
         />
