@@ -4,6 +4,7 @@ on:
   push:
     branches-ignore:
       - 'master'
+      - 'main'
   pull_request:
 
 jobs:
@@ -16,4 +17,4 @@ jobs:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
-          skip-publish: false
+          skip-publish: true
