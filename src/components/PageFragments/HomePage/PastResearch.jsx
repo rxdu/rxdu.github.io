@@ -51,83 +51,77 @@ const PastResearch = () => (
     <h2>Previous Research</h2>    
     Here you can find a few research projects I've worked on during my graduate study at WPI.
     <div><br></br></div>
+    <div>
+    <h3>Motion Prediction and Planning for Connected and Automated Vehicles</h3>
+    <p dangerouslySetInnerHTML={domHtml(pageText.paraOne)} />
+    </div>
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
         <Col span={12}>
-                <div>
-                <h3>Motion Prediction and Planning for Connected and Automated Vehicles</h3>
-                <p dangerouslySetInnerHTML={domHtml(pageText.paraOne)} />
-                </div>
+        <iframe 
+            width="400" 
+            height="225" 
+            src="https://www.youtube.com/embed/OkU2hrhpRAY?rel=0" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen />
         </Col>
         <Col>
-            <div>
-                <iframe 
-                    width="400" 
-                    height="225" 
-                    src="https://www.youtube.com/embed/OkU2hrhpRAY?rel=0" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen />
-                <ImageTile
-                        img="threat_field.png"
-                        width={400}
-                        alt="threat_field image"
-                        // img_desc="Probabilistic Occupancy Estimation"
-                        />
-            </div>
+            <ImageTile
+                img="threat_field.png"
+                width={400}
+                alt="threat_field image"
+                // img_desc="Probabilistic Occupancy Estimation"
+                />
         </Col>
     </Row>
     <div><br></br></div>
-    <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>        
+    <div>
+    <h3>Path Repair and Trajecotry Optimization for Small Unmanned Aerial Vehicles</h3>
+    <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
+    </div>
+    <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>       
         <Col span={12}>
-            <div>
-                <iframe 
-                    width="400" 
-                    height="225" 
-                    src="https://www.youtube.com/embed/TL6o-dDvIOY?rel=0" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen />
-                <iframe 
-                    width="400" 
-                    height="225" 
-                    src="https://www.youtube.com/embed/phAr_QhqO4A?rel=0" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen />
-            </div>
-        </Col>
+            <iframe 
+                width="400" 
+                height="225" 
+                src="https://www.youtube.com/embed/TL6o-dDvIOY?rel=0" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen />
+        </Col> 
         <Col>
-                <div>
-                <h3>Path Repair and Trajecotry Optimization for Small Unmanned Aerial Vehicles</h3>
-                <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
-                </div>
+            <iframe 
+                width="400" 
+                height="225" 
+                src="https://www.youtube.com/embed/phAr_QhqO4A?rel=0" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen />
         </Col>
     </Row>
     <div><br></br></div>
+    <div>
+    <h3>DARPA Robotics Challenge Trials & Finals</h3>
+    <p dangerouslySetInnerHTML={domHtml(pageText.paraThree)} />
+    </div>
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
         <Col span={12}>
-                <div>
-                <h3>DARPA Robotics Challenge Trials & Finals</h3>
-                <p dangerouslySetInnerHTML={domHtml(pageText.paraThree)} />
-                </div>
+            <iframe 
+                width="400" 
+                height="225" 
+                src="https://www.youtube.com/embed/J-3JWAuBzE8?rel=0" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen />
         </Col>
         <Col>
-            <div>
-                <iframe 
-                    width="400" 
-                    height="225" 
-                    src="https://www.youtube.com/embed/J-3JWAuBzE8?rel=0" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen />
-                <iframe 
-                    width="400" 
-                    height="225" 
-                    src="https://www.youtube.com/embed/UL3gMu76Nik?rel=0" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen />
-            </div>
+            <iframe 
+                width="400" 
+                height="225" 
+                src="https://www.youtube.com/embed/UL3gMu76Nik?rel=0" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen />
         </Col>
     </Row>
   </div>
