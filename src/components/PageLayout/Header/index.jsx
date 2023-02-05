@@ -47,7 +47,7 @@ export default () => {
               </Link>
             </li>
             <li className={style.navItem}>
-              <Link to="https://note.rdu.im" onClick={toggleMenu} activeClassName={style.anchorActive}>
+              <Link to="https://notes.rdu.im" onClick={toggleMenu} activeClassName={style.anchorActive}>
                 Notes
               </Link>
             </li>
