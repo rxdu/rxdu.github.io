@@ -12,7 +12,7 @@ const pageText = {
   real-time embedded systems.`,
   paraTwo: `I got my first <b>Master's degree in Robotics Engineering</b> 
   from <b>Worcester Polytechnic Institute (WPI)</b> in the USA in 2013. Then I spent about 2 years 
-  working on the DARPA Robotics Chanllenge. After the competition, I continued my graduate study as a <b>PhD candidate in Mechanical Engineering</b> at WPI and worked in the Autonomy, Control, and Estimation Laboratory (ACEL) under supervision of Professor Raghvendra V. Cowlagi. In early 2019, I dropped out of the PhD program due to VISA issue and concluded my study at WPI with another <b>Master's degree in Aerospace Engineering</b>.`,
+  working on the DARPA Robotics Chanllenge with Professor Taskin Padir. After the competition, I continued my graduate study as a <b>PhD candidate in Mechanical Engineering</b> at WPI and worked in the Autonomy, Control, and Estimation Laboratory (ACEL) under supervision of Professor Raghvendra V. Cowlagi. In early 2019, I dropped out of the PhD program due to VISA issue and concluded my study at WPI with another <b>Master's degree in Aerospace Engineering</b>.`,
   paraThree: `Currently I work as a full-time robotics engineer and the CTO of <b>Weston Robot</b>. I lead a small team building mobile robot hardware and autonomous navigation software stack.`,
 };
 

@@ -10,7 +10,7 @@ const PersonalProjects = () => (
     I've been maintaining a few open-source packages for my research and hobby projects over the past a few years. Below are a few screenshots of planning-related algorithms implemented in the packages.
     <ul>
         <li><a href="https://github.com/rxdu/libgraph">libgraph</a>: C++ class templates for graph construction and search.</li>
-        <li><a href="https://github.com/rxdu/robosw">robosw</a>: A lightweight mobile navigation framework</li>
+        <li><a href="https://github.com/rxdu/libxmotion">libxmotion</a>: A lightweight mobile robot motion planning and control library</li>
         <li><a href="https://github.com/rxdu/robofw">robofw</a>: A robot firmware framework based on Zephyr</li>
     </ul>
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
