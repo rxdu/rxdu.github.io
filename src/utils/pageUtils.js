@@ -28,7 +28,7 @@ const Utils = {
    */
   resolvePageUrl: (...path) => {
     const resolvedUrl = Utils.resolveUrl(...path);
-    return resolvedUrl;
+    return resolvedUrl.endsWith('/') ? resolvedUrl : `${resolvedUrl}/`;
   },
   /**
    * Get an ordered list of suggested posts for a single post.
