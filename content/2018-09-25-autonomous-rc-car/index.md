@@ -7,7 +7,7 @@ date: 2018-09-25
 excerpt: Build autonomous-driving capabilities on a 1:10 RC car
 ---
 
-This project is aimed at building and maintaining a 1:10 RC-car based mobile platform that can be used for study and experimentation on new ideas about autonomous driving. Though it's fun and may appear more exciting to show complete autonomous navigation capabilities, I would not take it as the top priority and the platform is expected to undergo frequent changes to meet the needs of trying out a specific hardware or software piece.
+This project is aimed at building and maintaining a 1:10 RC-car based mobile platform that can be used for study and experimentation on new ideas about autonomous driving. Though it's fun and may appear more exciting to show complete autonomous navigation capabilities, I would not take it as the top priority and the platform is ecptected to undergo frequent changes to meet the needs of trying out a specific hardware or software piece.
 
 *(Last updated on: 12/19/2020)*
 
@@ -36,7 +36,7 @@ Main parts for the car (some links may expire after initial post of this section
 - Chassis enhancement: [Jazrider Aluminum Front C-Hub Carriers](http://www.ebay.com/itm/Jazrider-Aluminum-Front-C-Hub-Carriers-Blue-Set-For-Tamiya-TA07-Pro-TB04-84382-/112436707457?hash=item1a2dc00081:g:ly0AAOSw9~5ZOm7w)
 - Steering servo: [HobbyStar DSHV-300T Digital, Mega-Torque Titanium Gear, High-Voltage Servo](https://www.rcjuice.com/hobbystar-dshv-300t-digital-mega-torque-titanium-gear-high-voltage-servo-waterproof.html)
 - Driving motor: [HobbyStar 1/10 Race Combo: 120A Turbo ESC + 540 Sensored Motor 10.5T](https://www.rcjuice.com/motor-esc/motor-esc-combos/1-10-short-course-combos/hobbystar-1-10-race-combo-120a-turbo-esc-540-sensored-motor-lcd-program-card.html)
-- RC transmitter: [FrSky Taranis X9D Plus 2.4GHz ACCST Radio (Mode 2)](https://www.getfpv.com/frsky-taranis-x9d-plus-2-4ghz-accst-radio-mode-2.html?gclid=Cj0KCQjwx8fOBRD7ARIsAPVq-Nk5OHcIxFCXHjBQpzXuEv4WKaOzvbYtZkZCUayACJXc01fZ0Qzym1YaAvnWEALw_wcB)
+- RC trasmitter: [FrSky Taranis X9D Plus 2.4GHz ACCST Radio (Mode 2)](https://www.getfpv.com/frsky-taranis-x9d-plus-2-4ghz-accst-radio-mode-2.html?gclid=Cj0KCQjwx8fOBRD7ARIsAPVq-Nk5OHcIxFCXHjBQpzXuEv4WKaOzvbYtZkZCUayACJXc01fZ0Qzym1YaAvnWEALw_wcB)
 - Receiver: [FrSky XSR 2.4GHz 16CH ACCST Receiver S-Bus CPPM Output](https://www.amazon.com/gp/product/B01HZB6XTI/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1)
 
 *Note*: 
@@ -58,7 +58,7 @@ Main parts for the car (some links may expire after initial post of this section
 1. Most FPV quadrotors use 3S, 4S LiPo batteries but for RC cars 2S batteries (with a lot more mAh) are more common.
 2. RC Car batteries mostly come with Deans T plug, while it's more common to see XT60 connectors on LiPo batteries for multicopters. I add an XT60 adapter on the car because I want to keep the compatibility across all my toys, batteries and the charger for easy maintenance. 
 3. A power distribution board (PDB) is used because I need to distribute power from the battery to ESC (which powers motor and servo), microcontroller, single board computer and sensors.
-4. This PDB could support 20A continuous current and 30A peak current from each channel. To avoid overheating and board damage, you should use the output pads closest to the input pads for the ESC connection and make solid/complete contact points when soldering.
+4. This PDB could support 20A continous current and 30A peak current from each channel. To avoid overheating and board damage, you should use the output pads closest to the input pads for the ESC connection and make solid/complete contact points when soldering.
 5. The PDB could be a bottle neck for the power system, but I didn't know any better choices designed specifically for RC cars. A custom-designed PDB could be considered in the future. But this off-the-shelf choice works without any problem so far.    
 6. The embedded 5V BEC on the PDB is used to power the MCU. A 5V UBEC supporting 6A continuous current is used to power raspberry pi or UP board. An extra 4S battery and 12V BEC may be added if a more powerful single-board computer is used in the future.
 7. The 12V BEC on the PDB should not be used because it would require a 4s battery as input. It will not work properly with a 2S battery (7.4V).
@@ -111,7 +111,7 @@ Additional information from the Internet:
 *Note*: 
 
 1. Don't forget to buy instant glue, which is required but not included in the package. Other than that you get everything you need to put this chassis together.
-2. A PPM receiver was chosen for its small size. But it's convenient if you have a receiver that outputs PWM signal. You can test the servo and DC motor conveniently simply with your transmitter, without an microcontroller or doing any coding.
+2. A PPM receiver was chosen for its small size. But it's convenient if you have a receiver that outputs PWM signal. You can test the servo and DC motor conveniently simply with your trasmitter, without an microcontroller or doing any coding.
 
 ![Chassis](./images/chassis.jpg)
 
@@ -153,7 +153,7 @@ And what the car looks like after installing the mounting plate.
 
 **More Electronics**
 
-In the following image, an Udoo Neo Full, a Pixracer and a racing version of Revolution flight controller are installed. Other boards include the voltage regulation modules and CAN bus transceiver modules. The final combination will be decided later.
+In the following image, an Udoo Neo Full, a Pixracer and a racing version of Revolution flight controller are installed. Other boards include the voltage regulation modules and CAN bus tranceiver modules. The final combination will be decided later.
 
 ![Chassis With Udoo Neo](./images/udoo_neo.jpg)
 
@@ -163,7 +163,7 @@ In the following image, an Udoo Neo Full, a Pixracer and a racing version of Rev
 
 A microcontroller is used to ensure the reliability of the low-level control. It's desirable that you could still control your RC car with the remote controller even in the extreme situations when the single-board computer running Linux shuts down or your high-level control algorithms go crazy. It's a lot easier to make a reliable microcontroller system with only low-level functionalities. 
 
-I did some experiments to evaluate how I could reuse opensource flight control code so that I don't have to implement functions like motor control, PWM receiver decoding, IMU data collection etc. for a microcontroller by myself. At first I tried to port dRonin firmware stack to Pixracer, but I couldn't make it work as reliably as how a stock version would do on a quadrotor. (This process helped me to get a lot more familiar with the openpilot flight stack though.) Then I tried to setup Pixracer with PX4 and it didn't take a lot of efforts to realize basic remote control. But I don't really like the complexity of PX4 and I feel it would be a pain for the maintenance when I want to do more and more customizations in the long run. Additionally I had to add an additional board for CAN bus and hall sensor output processing to avoid getting significantly involved in the PX4 firmware implementation details. The two-board setup works but I don't like it either. It requires me to put two MCU boards, which does not only increases hardware and firmware complexity but also decreases system reliability. The best choice seems to be using the Pixracer with custom firmware and only reuse code at module level, compared to adopting the whole system architecture.
+I did some experiments to evaluate how I could reuse opensource flight control code so that I don't have to implement functions like motor control, PWM receiver decoding, IMU data collection etc. for a microcontroller by myself. At first I tried to port dRonin firmware stack to Pixracer, but I counldn't make it work as reliably as how a stock version would do on a quadrotor. (This process helped me to get a lot more familar with the openpilot flight stack though.) Then I tried to setup Pixracer with PX4 and it didn't take a lot of efforts to realize basic remote control. But I don't really like the complexity of PX4 and I feel it would be a pain for the maintenance when I want to do more and more customizations in the long run. Additionally I had to add an additional board for CAN bus and hall sensor output processing to avoid getting significantly involved in the PX4 firmware implementation details. The two-board setup works but I don't like it either. It requires me to put two MCU boards, which does not only increases hardware and firmware complexity but also decreases system reliability. The best choice seems to be using the Pixracer with custom firmware and only reuse code at module level, compared to adopting the whole system architecture.
 
 The following hardware-related functions need to be implemented:
 

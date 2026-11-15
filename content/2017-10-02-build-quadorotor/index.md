@@ -59,7 +59,7 @@ The second build is improved in the following aspects:
 
 ![Quad250-2](./images/quad250-2.jpg)
 
-(It's generally recommended to put the two antennas at 90 degrees. But I hadn't found a good way to mount them in such configuration when I took this photo.)
+(It's generally recommended to put the two antenas at 90 degrees. But I hadn't found a good way to mount them in such configuration when I took this photo.)
 
 (Updated on 10/02/2017)
 

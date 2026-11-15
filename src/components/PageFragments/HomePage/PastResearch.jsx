@@ -20,10 +20,10 @@ const pageText = {
      selectively "listen to" vehicles that are relevant to ego vehicle's motion in 
      order to reduce onboard computation as well as mitigating communication channel 
      congestion in busy regions.`,
-    paraTwo: `Small electric quadrotors have become commercially available for a wide 
+    paraTwo: `Small electric quadrotors have become commertially available for a wide 
     range of applications, such as photography, construction site inspection and 
     agriculture. Though these UAVs are suitable for cluttered environments by its 
-    size and maneuverability, their applications are largely restricted to relatively 
+    size and manuverability, their applications are largely restricted to relatively 
     open areas. Can we make them fly autonomously in places like warehouses, 
     factories or densely populated urban neighbourhoods? In this project, we proposed 
     a path repair algorithm for small UAVs equipped with FOV-limited onboard 3D 
@@ -40,7 +40,7 @@ const pageText = {
      successfully qualified as one of the finalists in December 2013. Our team 
      WPI-CMU successfully finished the DRC Finals and ranked the 7th out of 23 
      competing teams from all over the world, in California, June 2015. Our 
-     development work involved many aspects of robotics, such as scene segmentation 
+     development work invovled many aspects of robotics, such as scene segmentation 
      and object detection, whole-body control of the humanoid robot, path and step 
      planning, trajectory planning and control for manipulation, behavior management 
      and human-robot interaction.`,
@@ -77,7 +77,7 @@ const PastResearch = () => (
     </Row>
     <div><br></br></div>
     <div>
-    <h3>Path Repair and Trajectory Optimization for Small Unmanned Aerial Vehicles</h3>
+    <h3>Path Repair and Trajecotry Optimization for Small Unmanned Aerial Vehicles</h3>
     <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
     </div>
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>       
