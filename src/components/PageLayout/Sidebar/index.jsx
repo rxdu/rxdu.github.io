@@ -14,6 +14,7 @@ const { Content } = Layout;
 const {
   facebook, github, linkedin,
 } = Config.social;
+const { email } = Config;
 
 const DomContent = () => (
   <aside>
@@ -49,12 +50,7 @@ const DomContent = () => (
           <span><FeatherIcon size="19" icon="mail" /></span>
           {' '}
 &nbsp; &nbsp;
-          <a
-            href="mailto:&#114;&#111;&#108;&#119;&#105;&#110;&#109;&#111;&#110;&#116;&#101;&#105;&#114;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
-            target="_top"
-          >
-            <span className={style.emailHider}>@</span>
-          </a>
+          <a className={style.email} href={`mailto:${email}`}>{email}</a>
         </li>
       </ul>
       <div className={style.resumeDownload}>

@@ -4,6 +4,7 @@ module.exports = {
   siteTitle: 'Ruixiang Du',
   siteDescription: 'Ruixiang\'s personal site',
   author: 'Ruixiang Du',
+  email: 'ruixiang.du@gmail.com',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: process.env.DISQUS_SCRIPT || 'https://rxdugit.disqus.com/embed.js',
