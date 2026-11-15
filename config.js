@@ -21,7 +21,6 @@ module.exports = {
     linkedin: 'https://www.linkedin.com/in/ruixiang-du/',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/<your-id>',
   tags: {
     hardware: {
         name: 'hardware',
