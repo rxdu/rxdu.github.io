@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://rdu.im/sitemap/sitemap-index.xml
+Host: https://rdu.im
