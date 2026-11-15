@@ -10,29 +10,31 @@
 
 This starter consists of ant design system you can use it for your personal blog. 
 
-## Quick start
+## Build and deploy
 
-1.  **Setup the project**  
-    by cloning the project and install the dependencies
+CI builds with the Node version in `.nvmrc`. These steps run that version in Docker, from the repository root.
 
-    ```shell
-    
-    cd <project-folder>
-    npm install
-    ```
-
-2.  **Start developing.**
-
+1. Install the locked dependencies:
 
     ```shell
-    gatsby develop
+    docker run --rm -u $(id -u):$(id -g) -e HOME=/tmp -v "$PWD":/site -w /site node:15.14.0-buster npm ci
     ```
 
-3.  **Open the source code and start editing!**
+2. Build the site into `public/`:
 
-    Your site is now running at `http://localhost:8000`!
+    ```shell
+    docker run --rm -u $(id -u):$(id -g) -e HOME=/tmp -v "$PWD":/site -w /site node:15.14.0-buster npx gatsby build --prefix-paths
+    ```
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+3. Serve the build at `http://localhost:8000`:
+
+    ```shell
+    python3 -m http.server 8000 --directory public
+    ```
+
+Use the `-buster` image. The plain `node:15.14.0` image is Debian stretch, and `npm ci` fails there because its zlib is too old for the prebuilt mozjpeg binary.
+
+A push to `main` runs `.github/workflows/npm-publish.yml`, which builds the site and pushes it to the `gh-pages` branch. GitHub Pages serves that branch at https://rdu.im. A push to any other branch runs the same build without publishing.
 
 
 ## What's inside?
