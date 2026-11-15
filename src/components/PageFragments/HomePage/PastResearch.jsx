@@ -56,8 +56,9 @@ const PastResearch = () => (
     <p dangerouslySetInnerHTML={domHtml(pageText.paraOne)} />
     </div>
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-        <Col span={12}>
-        <iframe 
+        <Col xs={24} md={12}>
+        <iframe
+            loading="lazy"
             width="400" 
             height="225" 
             src="https://www.youtube.com/embed/OkU2hrhpRAY?rel=0" 
@@ -80,8 +81,9 @@ const PastResearch = () => (
     <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
     </div>
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>       
-        <Col span={12}>
-            <iframe 
+        <Col xs={24} md={12}>
+            <iframe
+                loading="lazy"
                 width="400" 
                 height="225" 
                 src="https://www.youtube.com/embed/TL6o-dDvIOY?rel=0" 
@@ -90,7 +92,8 @@ const PastResearch = () => (
                 allowfullscreen />
         </Col> 
         <Col>
-            <iframe 
+            <iframe
+                loading="lazy"
                 width="400" 
                 height="225" 
                 src="https://www.youtube.com/embed/phAr_QhqO4A?rel=0" 
@@ -105,8 +108,9 @@ const PastResearch = () => (
     <p dangerouslySetInnerHTML={domHtml(pageText.paraThree)} />
     </div>
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-        <Col span={12}>
-            <iframe 
+        <Col xs={24} md={12}>
+            <iframe
+                loading="lazy"
                 width="400" 
                 height="225" 
                 src="https://www.youtube.com/embed/J-3JWAuBzE8?rel=0" 
@@ -115,7 +119,8 @@ const PastResearch = () => (
                 allowfullscreen />
         </Col>
         <Col>
-            <iframe 
+            <iframe
+                loading="lazy"
                 width="400" 
                 height="225" 
                 src="https://www.youtube.com/embed/UL3gMu76Nik?rel=0" 

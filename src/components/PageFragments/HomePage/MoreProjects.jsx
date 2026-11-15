@@ -20,7 +20,8 @@ const MoreProjects = () => (
         </Col>
         <Col>
             <div>
-            <iframe 
+            <iframe
+                loading="lazy"
                 width="400" 
                 height="225" 
                 src="https://www.youtube.com/embed/6qI_RjVsvzs?rel=0" 
@@ -34,7 +35,8 @@ const MoreProjects = () => (
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
         <Col>
             <div>
-            <iframe 
+            <iframe
+                loading="lazy"
                 width="400" 
                 height="225" 
                 src="https://www.youtube.com/embed/5VGGHFQIzGk?rel=0" 
@@ -46,7 +48,8 @@ const MoreProjects = () => (
         </Col>
         <Col>
             <div>
-            <iframe 
+            <iframe
+                loading="lazy"
                 width="400" 
                 height="225" 
                 src="https://www.youtube.com/embed/8LrmLvdZvYY?rel=0" 
