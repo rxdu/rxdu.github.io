@@ -9,7 +9,7 @@ import Utils from '../../utils/pageUtils';
 
 const detailsQuery = graphql`
   query DefaultSEOQuery {
-    file(name: { eq: "share" }) {
+    file(name: { eq: "facebook-icon" }) {
       childImageSharp {
         fixed(width: 600) {
           ...GatsbyImageSharpFixed_noBase64
