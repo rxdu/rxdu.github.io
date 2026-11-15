@@ -12,7 +12,7 @@ const MoreProjects = () => (
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
         <Col>
                 <ImageTile
-                        img="nutonomy.png"
+                        img="nutonomy.jpg"
                         width={400}
                         alt="nutonomy image"
                         img_desc="Self-driving Car (nuTonomy)"
