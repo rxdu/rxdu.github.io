@@ -17,7 +17,7 @@ const pageText = {
 };
 
 const AboutMe = () => {
-  const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
+  const description = stripTags(pageText.paraOne).replace(/\s+/g, ' ');
   return (
     <>
       <div>
