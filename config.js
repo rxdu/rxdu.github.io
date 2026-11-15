@@ -22,7 +22,6 @@ module.exports = {
     rss: '/rss.xml',
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/<your-id>',
-  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || 'UA-47255965-1',
   tags: {
     hardware: {
         name: 'hardware',
