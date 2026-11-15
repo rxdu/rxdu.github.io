@@ -1,6 +1,8 @@
 import React from 'react';
 import { Layout } from 'antd';
 import { Link, graphql } from 'gatsby';
+import { Helmet } from 'react-helmet';
+import Config from '../../../config';
 import Header from '../../components/PageLayout/Header';
 import style from './404.module.less';
 
@@ -21,6 +23,7 @@ export const query = graphql`
 export default ({ data }) => (
   <Layout className="outerPadding">
     <Layout className="container">
+      <Helmet title={`Page not found | ${Config.siteTitle}`} />
       <Header />
       <Sidebar404>
         <>
